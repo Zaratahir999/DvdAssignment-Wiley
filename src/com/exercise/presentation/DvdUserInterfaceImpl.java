@@ -146,10 +146,10 @@ public class DvdUserInterfaceImpl implements DvdUserInterface {
 		    Dvd searchDvd = businessLogic.searchDvd(search);
 		    
 		    if (searchDvd != null) {
-		    	System.out.println("Employee details for ID " + search + ":");
+		    	System.out.println("Informatation for  " + search + ":");
 		        System.out.println(searchDvd);
 		    } else {
-		        System.out.println("Employee with ID " + search + " does not exist.");
+		        System.out.println("DVD with  title " + search + " does not exist.");
 		    }
 		    break;
 		    

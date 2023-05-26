@@ -19,6 +19,7 @@ public class DvdClient {
                 dvdUserInterface.performMenu(choice);
             } catch (Exception e) {
                 System.out.println("Something went wrong, please try again");
+                
             }
         }
     }

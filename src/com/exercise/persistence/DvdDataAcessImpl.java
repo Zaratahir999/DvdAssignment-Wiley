@@ -13,6 +13,7 @@ public class DvdDataAcessImpl implements DvdDataAccess {
 
 	@Override
 	public boolean writeDvd(LinkedList<Dvd> dvds) throws Exception {
+		
 	    FileWriter fileWriter = new FileWriter("DvdsData"); // Corrected filename
 	    PrintWriter printWriter = new PrintWriter(fileWriter);
 
